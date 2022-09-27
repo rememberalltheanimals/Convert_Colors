@@ -22,9 +22,9 @@ Blue = parseFloat(Blue);
 
 
 // Conversion formular
-let rho = (1/Red+Green+Blue)*Red;
-let gamma = (1/Red+Green+Blue)*Green;
-let beta = (1/Red+Green+Blue)*Blue;
+let rho = (1/(Red+Green+Blue))*Red;
+let gamma = (1/(Red+Green+Blue))*Green;
+let beta = (1/(Red+Green+Blue))*Blue;
 
 Luminance = Math.max(Red, Green, Blue);
 
